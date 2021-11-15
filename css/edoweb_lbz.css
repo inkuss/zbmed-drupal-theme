@@ -555,7 +555,7 @@ ul.edoweb-facets-available a:hover {
 
 /* css based minify entity display */
 .default .field-name-field-edoweb-title {
-  display:none;
+  display:initial;
 } 
 
 .default .field-name-field-edoweb-parallel td {
@@ -599,7 +599,7 @@ ul.edoweb-facets-available a:hover {
  
  
 .field-name-field-mab-710{
-	display: none;
+	display: initial;
 }
 
 .field-name-field-edoweb-identifier-ht{
@@ -800,7 +800,7 @@ div.warning {
 
 /* css based reduced information set: get rid of unessessary fields */
 .default .field-name-field-edoweb-title {
-	display: none;
+	display: initial;
 }
 
 .field-name-field-edoweb-identifier-ht {
@@ -821,12 +821,12 @@ div.field.field-name-field-edoweb-struct-child.field-type-edoweb-ld-reference.fi
 }
 .fileInfo .accessRights
 	{
-	display: none;
+	display: initial;
 }
 
 .fileInfo .accessRights
 	{
-	display: none;
+	display: initial;
 }
 
 .fileInfo .downloadUrl
@@ -845,7 +845,7 @@ margin-left: 12em;
 }
 
 .field-name-field-edoweb-institution{
-display: none;
+display: initial;
 }
 
 .field-name-field-edoweb-collected-by{
@@ -948,7 +948,7 @@ do not display this fields
 .resourceTable .isDescribedBy, 
 .resourceTable .primaryTopic,
 .resourceTable .itemID, 
-.resourceTable .title, 
+// .resourceTable .title, 
 .resourceTable .hbzId,
 .resourceTable .contributorOrder, 
 .resourceTable .fulltextOnline,
@@ -959,14 +959,14 @@ do not display this fields
 .resourceTable .subjectOrder, 
 .resourceTable .seeAlso, 
 .resourceTable .subjectLabel,
-.resourceTable .creator, 
-.resourceTable .contributor, 
+// .resourceTable .creator, 
+// .resourceTable .contributor, 
 .resourceTable .volume,
 .resourceTable .externalParent, 
 .resourceTable .collectionOne,
-.resourceTable .accessScheme, 
-.resourceTable .publishScheme,
-.resourceTable .contentType, 
+// .resourceTable .accessScheme, 
+// .resourceTable .publishScheme,
+// .resourceTable .contentType, 
 .resourceTable .sameAs, 
 .resourceTable .describedby,
 .resourceTable .parallelEdition, 
@@ -990,15 +990,15 @@ do not show external links on this fields
 .resourceTable .rdftype a span, 
 .resourceTable .nwbibsubject a span,
 .resourceTable .nwbibspatial a span, 
-.resourceTable .language a span,
+// .resourceTable .language a span,
 .resourceTable .ddc a span, 
 .resourceTable .reviewStatus a span,
-.resourceTable .publicationStatus a span,
+// .resourceTable .publicationStatus a span,
 .resourceTable .ddc a span,
 .resourceTable .subjectName a span,
-.resourceTable .language a span,
+// .resourceTable .language a span,
 .resourceTable .reviewStatus a span,
-.resourceTable .publicationStatus a span, 
+// .resourceTable .publicationStatus a span, 
 .resourceTable .professionalGroup a span{
 	display: none;
 }
@@ -1209,6 +1209,6 @@ font-size: .9em;
 }
 
 .subjectSource{
-     display:none;
+     display:initial;
 }
 
